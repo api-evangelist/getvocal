@@ -1,0 +1,32 @@
+openapi: 3.1.0
+info:
+  title: GetVocal Agent Contact API
+  version: 1.0.0
+  description: Machine-readable description of GetVocal's agent-facing resources. GetVocal builds AI voice and chat agents for regulated, high-volume customer operations. In-browser AI agents can also call the site's tools directly via WebMCP (navigator.modelContext); see /llms.txt and /.well-known/mcp.json.
+  contact:
+    name: GetVocal
+    email: contact@getvocal.ai
+    url: https://www.getvocal.ai
+servers:
+- url: https://www.getvocal.ai
+tags:
+- name: Contact
+paths:
+  /contact/demo:
+    get:
+      operationId: bookDemo
+      summary: Book a 30-minute demo
+      description: Opens the page to book a 30-minute GetVocal demo. Accepts an optional email to prefill.
+      parameters:
+      - name: email
+        in: query
+        required: false
+        description: Work email to prefill on the demo booking form.
+        schema:
+          type: string
+          format: email
+      responses:
+        '200':
+          description: The demo booking page.
+      tags:
+      - Contact
