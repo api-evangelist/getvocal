@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+status: published
+source: https://www.getvocal.ai/.well-known/mcp.json
+server:
+  name: getvocal
+  transport: webmcp
+  schema_version: '2025-06-18'
+  documentation_url: https://www.getvocal.ai/llms.txt
+  contact: contact@getvocal.ai
+  description: >-
+    GetVocal exposes its site as callable tools for AI agents. Tools are
+    registered in-page via WebMCP (navigator.modelContext); the manifest is
+    published at /.well-known/mcp.json and referenced from the site OpenAPI
+    (getMcpManifest) and ai-plugin.json.
+tools:
+- name: getvocal.search
+  description: Find GetVocal products, industries, customer stories and pages by keyword and return the matching links.
+- name: getvocal.get_overview
+  description: Summarize what GetVocal does, who it serves and its differentiator for AI customer operations.
+- name: getvocal.list_products
+  description: Browse GetVocal's products, each with a short description and a link.
+- name: getvocal.list_industries
+  description: Show every industry GetVocal serves, each with a link to its page.
+- name: getvocal.book_demo
+  description: Open the page to book a 30-minute GetVocal demo and return its URL.
+- name: getvocal.contact_sales
+  description: Return GetVocal's contact options — sales email plus demo and partner links.

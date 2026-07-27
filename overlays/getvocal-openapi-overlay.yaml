@@ -1,0 +1,27 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for GetVocal Agent API
+  version: 1.0.0
+extends: openapi/getvocal-openapi-original.json
+actions:
+- target: $.info
+  update:
+    x-apievangelist-notes: >-
+      Public, unauthenticated agent-facing site API (auth: none). Three GET
+      operations plus a companion WebMCP server at /.well-known/mcp.json. Part of
+      GetVocal's agent-native surface (llms.txt + ai-plugin.json + WebMCP).
+    x-apievangelist-agent-native: true
+    x-mcp-manifest: https://www.getvocal.ai/.well-known/mcp.json
+    x-llms-txt: https://www.getvocal.ai/llms.txt
+- target: $.info
+  update:
+    x-tags:
+    - agent-native
+    - webmcp
+    - customer-experience
+    - voice-ai
+- target: $.paths['/contact/demo'].get
+  update:
+    x-agentic-access:
+      action-class: connected
+      consequence: read

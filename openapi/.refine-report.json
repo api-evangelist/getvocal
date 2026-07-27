@@ -1,0 +1,18 @@
+{
+  "provider": "getvocal",
+  "sources": [
+    "getvocal-contact-api-openapi.yml",
+    "getvocal-llms-txt-api-openapi.yml",
+    "getvocal-well-known-api-openapi.yml"
+  ],
+  "outputs": [
+    "getvocal-contact-api-openapi.yml",
+    "getvocal-llms-txt-api-openapi.yml",
+    "getvocal-well-known-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

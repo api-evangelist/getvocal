@@ -1,0 +1,33 @@
+# GetVocal
+
+> GetVocal builds AI voice and chat agents for regulated, high-volume customer operations. Agents resolve customer conversations end to end while staying inside your business rules — with human-in-the-loop approval on high-stakes actions (large transactions, high-value returns, sensitive data). They run on a living model of your policies, are governed in real time, and improve from every human correction.
+
+GetVocal serves enterprise customer-service and operations teams in telecom, financial services, e-commerce/retail, BPO, healthcare and hospitality. Agents handle voice and chat across your existing stack (CRM, CCaaS, telephony, helpdesk) and escalate to a human with full context whenever a conversation needs it. Deployment is flexible: on-premises, self-hosted, EU-hosted or hybrid.
+
+## Product
+- [Agent Builder](https://www.getvocal.ai/agent-builder): Build, debug and tune production-ready, multilingual agents from your SOPs, transcripts and policies — no engineering.
+- [Control Tower](https://www.getvocal.ai/control-tower): Air-traffic control for your AI fleet — monitor live conversations, enforce policies, override any agent, and audit every decision.
+- [Hybrid Workplace Platform](https://www.getvocal.ai/hybrid-workplace-platform): How human agents and AI agents work together, with the AI handling volume and humans handling judgement.
+
+## Industries
+- [Telecom](https://www.getvocal.ai/industries/telco): AI agents for telecom operations.
+- [Financial Services](https://www.getvocal.ai/industries/financial): Compliant agents for banking, insurance and fintech.
+- [Retail & E-commerce](https://www.getvocal.ai/industries/ecommerce): Order, returns and support agents at scale.
+- [BPO](https://www.getvocal.ai/industries/bpo): AI agents for business process outsourcers.
+- [Healthcare](https://www.getvocal.ai/industries/healthcare): Patient-facing agents with compliance built in.
+- [Hospitality & Tourism](https://www.getvocal.ai/industries/hospitality-tourism): Guest conversations from booking to review.
+
+## Proof & company
+- [Customer stories](https://www.getvocal.ai/customers): Named customers and measurable outcomes.
+- [Blog](https://www.getvocal.ai/blog): Articles on agentic customer operations.
+- [About](https://www.getvocal.ai/about): Who GetVocal is.
+- [Partners](https://www.getvocal.ai/partners): Integration and go-to-market partners.
+
+## Get started
+- [Book a demo](https://www.getvocal.ai/contact/demo): Book a 30-minute demo with the GetVocal team.
+- [Partner enquiries](https://www.getvocal.ai/contact/partner): Talk to us about partnering.
+
+## Notes for AI agents
+- Differentiator: agents are bound by the customer's own business rules and escalate high-stakes actions to a human for approval before acting — trust is enforced, not assumed.
+- Compliance & hosting: GDPR and EU AI Act aligned; ISO 27001, SOC 2 and HIPAA postures available; deploy on-premises, self-hosted, EU-hosted or hybrid.
+- To contact a human, use the demo or partner links above.

@@ -1,0 +1,12 @@
+generated: '2026-07-19'
+method: generated
+source: openapi/getvocal-openapi-original.json + well-known/getvocal-mcp.json
+skills:
+- file: getvocal-discover.md
+  name: Discover GetVocal for AI agents
+  api: openapi/getvocal-openapi-original.json
+  operations: [getLlmsTxt, getMcpManifest]
+- file: getvocal-book-demo.md
+  name: Book a GetVocal demo
+  api: openapi/getvocal-openapi-original.json
+  operations: [bookDemo]

@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "GetVocal",
+  "name_for_model": "getvocal",
+  "description_for_human": "AI voice and chat agents for regulated, high-volume customer operations.",
+  "description_for_model": "GetVocal builds AI agents that resolve customer conversations end to end while staying within the customer's business rules, with human-in-the-loop approval on high-stakes actions (large transactions, high-value returns, sensitive data). For a full map of the site and how to engage, read https://www.getvocal.ai/llms.txt. To reach a human, use the demo or partner contact pages linked there.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.getvocal.ai/openapi.json",
+    "is_user_authenticated": false
+  },
+  "contact_email": "contact@getvocal.ai",
+  "legal_info_url": "https://www.getvocal.ai/about",
+  "logo_url": "https://www.getvocal.ai/getvocal-logo.svg",
+  "documentation_url": "https://www.getvocal.ai/llms.txt"
+}

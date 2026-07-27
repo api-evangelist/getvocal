@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.getvocal.ai/llms.txt
+url: https://trust.getvocal.ai/
+certifications:
+- SOC 2
+- ISO 27001
+- HIPAA
+compliance:
+- GDPR
+- EU AI Act
+notes: >-
+  A public Trust Center is hosted at trust.getvocal.ai (a client-rendered SPA,
+  so its document list could not be scraped verbatim). The certification and
+  compliance postures above are stated by the provider in their published
+  /llms.txt: "GDPR and EU AI Act aligned; ISO 27001, SOC 2 and HIPAA postures
+  available." Deployment options: on-premises, self-hosted, EU-hosted or hybrid.
+evidence:
+- source: https://www.getvocal.ai/llms.txt
+  keywords: [iso 27001, soc 2, hipaa, gdpr, eu ai act]
+- source: https://trust.getvocal.ai/
+  keywords: [trust center]

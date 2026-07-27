@@ -1,28 +1,123 @@
 aid: getvocal
 name: GetVocal
-description: 'GetVocal is a company surfaced as a portfolio company of creandum, speedinvest and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  GetVocal builds AI voice and chat agents for regulated, high-volume customer
+  operations. Its agents resolve customer conversations end to end while staying
+  inside a business's own rules, with human-in-the-loop approval on high-stakes
+  actions such as large transactions, high-value returns and sensitive data.
+  Products include Agent Builder, Control Tower and a Hybrid Workplace Platform,
+  serving telecom, financial services, retail and e-commerce, BPO, healthcare and
+  hospitality across 100+ languages. GetVocal ships an agent-native surface — a
+  public OpenAPI, an llms.txt guidance file, an ai-plugin manifest and a WebMCP
+  tool server — with on-premises, self-hosted, EU-hosted or hybrid deployment.
+  Backed by Creandum and Speedinvest.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getvocal.ai/getvocal-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - creandum
 - speedinvest
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-agent-native-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
-apis: []
+- Voice AI
+- Conversational AI
+- Customer Experience
+- AI Agents
+- Contact Center
+- Agent Governance
+- MCP
+- Agent Native
+apis:
+- aid: getvocal:getvocal-contact-api
+  name: GetVocal Contact API
+  description: The Contact API from GetVocal — 1 operation(s) for contact.
+  humanURL: https://www.getvocal.ai/llms.txt
+  baseURL: https://www.getvocal.ai
+  tags:
+  - Contact
+  properties:
+  - type: OpenAPI
+    url: openapi/getvocal-contact-api-openapi.yml
+- aid: getvocal:getvocal-llms-txt-api
+  name: GetVocal Llms.txt API
+  description: The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
+  humanURL: https://www.getvocal.ai/llms.txt
+  baseURL: https://www.getvocal.ai
+  tags:
+  - Llms.txt
+  properties:
+  - type: OpenAPI
+    url: openapi/getvocal-llms-txt-api-openapi.yml
+- aid: getvocal:getvocal-well-known-api
+  name: GetVocal .well Known API
+  description: The .well Known API from GetVocal — 1 operation(s) for .well known.
+  humanURL: https://www.getvocal.ai/llms.txt
+  baseURL: https://www.getvocal.ai
+  tags:
+  - .well Known
+  properties:
+  - type: OpenAPI
+    url: openapi/getvocal-well-known-api-openapi.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: MCPServer
+  url: mcp/getvocal-mcp.yml
+- type: LLMsTxt
+  url: llms/getvocal-llms.txt
+- type: WellKnown
+  url: well-known/getvocal-well-known.yml
+- type: AgenticAccess
+  url: agentic-access/getvocal-agentic-access.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: Conventions
+  url: conventions/getvocal-conventions.yml
+- type: Conformance
+  url: conformance/getvocal-conformance.yml
+- type: Compliance
+  url: https://trust.getvocal.ai/
+- type: TrustCenter
+  url: security/getvocal-trust-center.yml
+- type: DomainSecurity
+  url: security/getvocal-domain-security.yml
+- type: Documentation
+  url: https://www.getvocal.ai/llms.txt
+- type: Blog
+  url: https://www.getvocal.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/getvocal
+- type: SignUp
+  url: https://www.getvocal.ai/contact/demo
+- type: TermsOfService
+  url: https://www.getvocal.ai/legal-terms
+- type: PrivacyPolicy
+  url: https://www.getvocal.ai/privacy-policy
 - type: Website
   url: https://www.getvocal.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

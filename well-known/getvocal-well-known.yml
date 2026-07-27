@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.getvocal.ai
+documents:
+- path: /.well-known/ai-plugin.json
+  status: 200
+  file: getvocal-ai-plugin.json
+- path: /.well-known/mcp.json
+  status: 200
+  file: getvocal-mcp.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404

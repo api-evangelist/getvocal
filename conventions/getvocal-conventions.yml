@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: derived
+source: openapi/getvocal-openapi-original.json
+summary: >-
+  GetVocal's public surface is an agent-native site API, not a transactional
+  developer API. It exposes three safe GET operations and a companion WebMCP
+  tool server for in-browser agents. There is no authentication, no write path,
+  no pagination and no idempotency-key contract.
+authentication:
+  style: none
+  detail: "Site OpenAPI declares auth.type = none; ai-plugin.json auth.type = none. All operations are public and unauthenticated."
+http_methods:
+  used: [GET]
+  safe: true
+  note: "All published operations are safe/read-only GET requests (HTTP-idempotent by method semantics, but no explicit idempotency-key mechanism)."
+idempotency:
+  supported: false
+  note: "No Idempotency-Key header or write operations are documented; GET-only surface."
+pagination:
+  supported: false
+content_types:
+  - text/plain
+  - application/json
+versioning:
+  scheme: none-documented
+  spec_version: 1.0.0
+agent_surface:
+  llms_txt: https://www.getvocal.ai/llms.txt
+  ai_plugin: https://www.getvocal.ai/.well-known/ai-plugin.json
+  mcp_manifest: https://www.getvocal.ai/.well-known/mcp.json
+  transport: webmcp
+error_envelope:
+  documented: false
+  note: "The published OpenAPI defines only 200 responses; no error schema is declared."
+cross_links:
+  authentication: none (public surface)
+  errors: none published
+  mcp: mcp/getvocal-mcp.yml

@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.getvocal.ai/llms.txt
+docs: https://trust.getvocal.ai/
+standards:
+- id: soc2
+  conforms: true
+  evidence: "llms.txt states 'ISO 27001, SOC 2 and HIPAA postures available'; trust center at trust.getvocal.ai"
+- id: iso-27001
+  conforms: true
+  evidence: "llms.txt states 'ISO 27001, SOC 2 and HIPAA postures available'"
+- id: hipaa
+  conforms: true
+  evidence: "llms.txt states 'ISO 27001, SOC 2 and HIPAA postures available'"
+- id: gdpr
+  conforms: true
+  evidence: "llms.txt states 'GDPR and EU AI Act aligned'"
+- id: eu-ai-act
+  conforms: true
+  evidence: "llms.txt states 'GDPR and EU AI Act aligned'"
+- id: openapi-3.1
+  conforms: true
+  evidence: "publishes OpenAPI 3.1.0 at /openapi.json"
+- id: mcp
+  conforms: true
+  evidence: "publishes WebMCP manifest at /.well-known/mcp.json (schema_version 2025-06-18)"
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: "no application/problem+json responses in the published OpenAPI"
+- id: oauth2
+  conforms: false
+  evidence: "site OpenAPI declares auth: none; no oauth2 securitySchemes"
