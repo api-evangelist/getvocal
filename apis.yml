@@ -82,6 +82,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Overlay
+  url: overlays/getvocal-openapi-overlay.yaml
 - type: MCPServer
   url: mcp/getvocal-mcp.yml
 - type: LLMsTxt
