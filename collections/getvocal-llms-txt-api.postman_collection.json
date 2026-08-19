@@ -1,0 +1,102 @@
+{
+  "item": [
+    {
+      "id": "28b9f9b1-2b5f-443c-8555-37e892db4513",
+      "name": "Llms.txt",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "4f77d530-1af6-43d6-8bbe-6cfdb2592250",
+          "name": "Get the agent guidance file",
+          "request": {
+            "name": "Get the agent guidance file",
+            "description": {
+              "content": "Returns the llms.txt site map and guidance for AI agents.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "llms.txt"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "text/plain"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d70b1f5f-67b8-47d4-ba40-9cc1a5055fcd",
+              "name": "The llms.txt guidance file.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "llms.txt"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "string",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://www.getvocal.ai",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e8decb68-a8aa-41ff-9c49-6df841e14c9d",
+    "name": "GetVocal Agent Contact Llms.txt API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Machine-readable description of GetVocal's agent-facing resources. GetVocal builds AI voice and chat agents for regulated, high-volume customer operations. In-browser AI agents can also call the site's tools directly via WebMCP (navigator.modelContext); see /llms.txt and /.well-known/mcp.json.\n\nContact Support:\n Name: GetVocal\n Email: contact@getvocal.ai",
+      "type": "text/plain"
+    }
+  }
+}

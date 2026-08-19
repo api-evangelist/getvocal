@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "GetVocal Agent Contact Llms.txt API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Llms.txt",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get the agent guidance file",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.getvocal.ai/llms.txt"
+          },
+          "docs": "Returns the llms.txt site map and guidance for AI agents."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

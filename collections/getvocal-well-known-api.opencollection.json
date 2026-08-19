@@ -1,0 +1,29 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "GetVocal Agent Contact .well Known API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": ".well Known",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get the MCP discovery manifest",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.getvocal.ai/.well-known/mcp.json"
+          },
+          "docs": "Returns the Model Context Protocol manifest listing the WebMCP tools the site exposes."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

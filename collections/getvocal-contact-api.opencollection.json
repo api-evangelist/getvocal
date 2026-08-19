@@ -1,0 +1,37 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "GetVocal Agent Contact API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Contact",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Book a 30-minute demo",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.getvocal.ai/contact/demo",
+            "params": [
+              {
+                "name": "email",
+                "value": "",
+                "type": "query",
+                "description": "Work email to prefill on the demo booking form."
+              }
+            ]
+          },
+          "docs": "Opens the page to book a 30-minute GetVocal demo. Accepts an optional email to prefill."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
