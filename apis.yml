@@ -36,6 +36,17 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Voice AI
+- Conversational AI
+- Customer Experience
+- AI Agents
+- Contact Center
+- Agent Governance
+- MCP
+- agent-native
+tags_raw:
+- Company
 - Ai
 - Voice AI
 - Conversational AI
@@ -62,6 +73,8 @@ apis:
   humanURL: https://www.getvocal.ai/llms.txt
   baseURL: https://www.getvocal.ai
   tags:
+  - llms-txt
+  tags_raw:
   - Llms.txt
   properties:
   - type: OpenAPI
