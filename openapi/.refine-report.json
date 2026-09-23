@@ -1,18 +1,30 @@
 {
   "provider": "getvocal",
   "sources": [
-    "getvocal-contact-api-openapi.yml",
-    "getvocal-llms-txt-api-openapi.yml",
-    "getvocal-well-known-api-openapi.yml"
+    "_original/getvocal-openapi-original.json"
   ],
   "outputs": [
+    "getvocal-well-known-api-openapi.yml",
     "getvocal-contact-api-openapi.yml",
-    "getvocal-llms-txt-api-openapi.yml",
-    "getvocal-well-known-api-openapi.yml"
+    "getvocal-llms-txt-api-openapi.yml"
   ],
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "getvocal-openapi-original.json: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "getvocal-openapi-original.json: tagged paths GET /llms.txt -> Llms.txt",
+    "getvocal-openapi-original.json: tagged paths GET /.well-known/mcp.json -> .well Known",
+    "getvocal-openapi-original.json: tagged paths GET /contact/demo -> Contact",
+    "getvocal-openapi-original.json: declared missing tag: .well Known",
+    "getvocal-openapi-original.json: declared missing tag: Contact",
+    "getvocal-openapi-original.json: declared missing tag: Llms.txt",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "getvocal-contact-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "getvocal-llms-txt-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "getvocal-well-known-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

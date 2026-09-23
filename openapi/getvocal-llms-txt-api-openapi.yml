@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: GetVocal Agent Contact Llms.txt API
+  title: GetVocal Agent Llms.txt API
   version: 1.0.0
   description: Machine-readable description of GetVocal's agent-facing resources. GetVocal builds AI voice and chat agents for regulated, high-volume customer operations. In-browser AI agents can also call the site's tools directly via WebMCP (navigator.modelContext); see /llms.txt and /.well-known/mcp.json.
   contact:
