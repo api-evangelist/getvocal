@@ -56,7 +56,7 @@ tags:
 - Contact Center
 - Agent Governance
 - MCP
-- agent-native
+- Agent-Native
 tags_raw:
 - Company
 - Ai
@@ -68,12 +68,12 @@ tags_raw:
 - Agent Governance
 - MCP
 - Agent Native
+- agent-native
 apis:
 - aid: getvocal:getvocal-contact-api
   name: GetVocal Contact API
   description: The Contact API from GetVocal — 1 operation(s) for contact.
   humanURL: https://www.getvocal.ai/llms.txt
-  baseURL: https://www.getvocal.ai
   tags:
   - Contact
   properties:
@@ -83,7 +83,6 @@ apis:
   name: GetVocal Llms.txt API
   description: The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
   humanURL: https://www.getvocal.ai/llms.txt
-  baseURL: https://www.getvocal.ai
   tags:
   - llms-txt
   tags_raw:
@@ -95,7 +94,6 @@ apis:
   name: GetVocal .well Known API
   description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   humanURL: https://www.getvocal.ai/llms.txt
-  baseURL: https://www.getvocal.ai
   tags:
   - .well Known
   properties:
