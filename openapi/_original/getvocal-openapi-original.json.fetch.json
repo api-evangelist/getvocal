@@ -1,0 +1,12 @@
+{
+ "url": "https://www.getvocal.ai/openapi.json",
+ "requested_url": "https://www.getvocal.ai/openapi.json",
+ "status": 200,
+ "content_type": "application/json; charset=utf-8",
+ "bytes": 2130,
+ "sha256": "053c7b6bcd036c01022bf3384017ff4aa5c17fb192b656a9571bd69d20d13825",
+ "fetched_at": "2026-10-04",
+ "fetched_by": "APIEvangelist-Harvest/1.0 (+https://apievangelist.com)",
+ "match": "byte-identical",
+ "note": "Re-fetched from the provider by verify-openapi-sources.py; the archived file is byte-identical to what the provider serves."
+}
