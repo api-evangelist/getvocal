@@ -30,3 +30,9 @@ paths:
           description: The demo booking page.
       tags:
       - Contact
+x-provenance:
+  method: harvested
+  publisher: GetVocal
+  source: https://www.getvocal.ai/openapi.json
+  note: split by refine-openapis from the provider's own published document, verified by fetch (openapi/_original/*.fetch.json);
+    stamped by stamp-openapi-provenance.py (roadmap#793)
