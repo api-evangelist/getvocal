@@ -64,6 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GetVocal is a company surfaced as a portfolio company of creandum, speedinvest and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+GetVocal builds AI voice and chat agents for regulated, high-volume customer operations. Its agents resolve customer conversations end to end while staying inside a business's own rules, with human-in-the-loop approval on high-stakes actions such as large transactions, high-value returns and sensitive data. Products include Agent Builder, Control Tower and a Hybrid Workplace Platform, serving telecom, financial services, retail and e-commerce, BPO, healthcare and hospitality across 100+ languages. GetVocal ships an agent-native surface — a public OpenAPI, an llms.txt guidance file, an ai-plugin manifest and a WebMCP tool server — with on-premises, self-hosted, EU-hosted or hybrid deployment. Backed by Creandum and Speedinvest.
 
-Backed by: creandum, speedinvest — https://www.getvocal.ai/
+**Areas:** Company · Artificial Intelligence · Voice AI · Conversational AI · Customer Experience · AI Agents · Contact Center · Agent Governance · MCP · Agent-Native
+
+## GetVocal on APIs.io
+
+Everything profiled for GetVocal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getvocal/](https://apis.io/providers/getvocal/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [GetVocal Contact API](https://apis.io/apis/getvocal/getvocal-contact-api/) — The Contact API from GetVocal — 1 operation(s) for contact.
+- [GetVocal Llms.txt API](https://apis.io/apis/getvocal/getvocal-llms-txt-api/) — The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
+- [GetVocal .well Known API](https://apis.io/apis/getvocal/getvocal-well-known-api/) — The .well Known API from GetVocal — 1 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [getvocal](https://apis.io/servers/getvocal/getvocal/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Getvocal Agentic Access](https://apis.io/agentic-access/getvocal/getvocal-agentic-access/)
+
+#### Collections (3)
+
+Postman and Open Collection request collections.
+
+- [GetVocal Agent Contact API](https://apis.io/collections/getvocal/open-getvocal-contact-api/)
+- [GetVocal Agent Contact Llms.txt API](https://apis.io/collections/getvocal/open-getvocal-llms-txt-api/)
+- [GetVocal Agent Contact .well Known API](https://apis.io/collections/getvocal/open-getvocal-well-known-api/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Getvocal Openapi Overlay](https://apis.io/overlays/getvocal/getvocal-openapi-overlay/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Getvocal Domain Security](https://apis.io/security/getvocal/getvocal-domain-security/)
+- [Getvocal Trust Center](https://apis.io/security/getvocal/getvocal-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.getvocal.ai/)
+- [Documentation](https://www.getvocal.ai/llms.txt)
+- [Sign up](https://www.getvocal.ai/contact/demo)
+- [Blog](https://www.getvocal.ai/blog)
+- [Compliance](https://trust.getvocal.ai/)
+- [Terms of service](https://www.getvocal.ai/legal-terms)
+- [Privacy policy](https://www.getvocal.ai/privacy-policy)
+- [GitHub](https://github.com/getvocal)
+
+## API Evangelist rating
+
+**Kin Score 32.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 44.7 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 13.7 |
+| Access clarity | 42.1 |
+
+**Agent readiness 18.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getvocal/](https://apis.io/providers/getvocal/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GetVocal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/getvocal/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
